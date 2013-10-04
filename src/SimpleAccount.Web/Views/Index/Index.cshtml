@@ -1,0 +1,54 @@
+﻿ <form name="newAccountForm" class="form-signin" novalidate>
+     
+     <h2 class="form-signin-heading">Create account</h2>
+     
+     <br/> 
+     <p class="text-danger">{{model.errorMessage}}</p>
+     <p class="text-success">{{model.successMessage}}</p>
+     <br/>
+
+     <div class="row">
+         <div class="col-md-2">Email</div>
+         <div class="col-md-6">
+             <input  type="email" class="form-control" placeholder="Email address" autofocus ng-model="model.email" required name="email" id="emailId">
+         </div>
+         <div class="col-md-3">
+             <p class="text-danger" ng-show="newAccountForm.email.$error.email">Not valid email</p>
+         </div>
+     </div> 
+
+     <br/>
+     
+     <div class="row">
+         <div class="col-md-2">Password</div>
+         <div class="col-md-6">
+             <input type="password" maxlength="8"  class="form-control" placeholder="Password" ng-model="model.password" required name="password" id="passwordId">
+         </div>         
+     </div>
+
+     <div class="row">
+         <div class="col-md-2"></div>
+         <div class="col-md-6">
+             <p ng-class="strengthInfo" ng-show="model.password.length>0">Password strength: {{strength}}</p>
+         </div> 
+     </div>
+      
+     
+     <div class="row">
+         <div class="col-md-2"></div>
+         <div class="col-md-6">
+             <input type="password" maxlength="8" class="form-control" placeholder="Confirm Password" required ng-model="model.confirmPassword" name="confirm_password" id="confirm_passwordId">
+         </div>
+         <div class="col-md-3"> 
+             <p class="text-danger"  ng-show="passwordNotMatched">Password must match</p>
+         </div> 
+     </div>
+
+     
+     <p> 
+         <button class="btn btn-lg btn-primary pull-right" type="submit" ng-click="CreateAccount(model)"  ng-disabled="newAccountForm.$invalid || !IsFormValid()">
+             Create account
+         </button> 
+     </p>
+
+ </form>

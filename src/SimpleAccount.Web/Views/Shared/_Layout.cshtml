@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="simpleAccountApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+        <title>Signin</title> 
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+        <style>
+            .form-signin { max-width: 600px; } 
+            input.ng-invalid.ng-dirty { background-color: #FA787E; } 
+            input.ng-valid.ng-dirty { background-color: #78FA89; } 
+        </style>
+    </head>
+
+    <body ng-controller="simpleAccountController">
+
+        <div class="container" >
+
+            @RenderBody()
+
+        </div> 
+         
+        <script src="http://code.angularjs.org/1.1.5/angular.min.js"> </script>
+        <script src="~/Js/App.js"> </script>        
+        <script src="~/Js/SimpleAccountService.js"> </script>
+        <script src="~/Js/SimpleAccountController.js"> </script>
+        
+    </body>
+</html>

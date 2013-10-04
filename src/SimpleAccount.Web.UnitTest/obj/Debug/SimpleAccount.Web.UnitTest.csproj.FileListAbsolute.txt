@@ -1,0 +1,15 @@
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\SimpleAccount.Web.UnitTest.dll
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\SimpleAccount.Web.UnitTest.pdb
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\SimpleAccount.Web.dll
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\System.Web.Http.dll
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\System.Web.Http.WebHost.dll
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\System.Net.Http.Formatting.dll
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\SimpleAccount.Web.pdb
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\System.Web.Http.xml
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\System.Web.Http.WebHost.xml
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\System.Net.Http.Formatting.xml
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\obj\Debug\SimpleAccount.Web.UnitTest.csprojResolveAssemblyReference.cache
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\obj\Debug\SimpleAccount.Web.UnitTest.dll
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\obj\Debug\SimpleAccount.Web.UnitTest.pdb
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\SimpleAccount.Data.dll
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\SimpleAccount.Data.pdb
