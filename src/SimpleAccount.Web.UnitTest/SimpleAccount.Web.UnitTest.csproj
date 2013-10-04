@@ -74,7 +74,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Helper\angular-scenario.js" />
     <Content Include="Helper\angular.mocks.js" />
+    <Content Include="Helper\jquery.min.js" />
     <Content Include="JavaScriptTest\karma.config.js" />
     <Content Include="JavaScriptTest\SimpleAccountTest.js" />
   </ItemGroup>
