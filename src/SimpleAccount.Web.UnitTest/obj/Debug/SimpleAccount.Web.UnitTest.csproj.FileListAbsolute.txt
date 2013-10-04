@@ -13,3 +13,7 @@ D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\obj\Debug\SimpleA
 D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\obj\Debug\SimpleAccount.Web.UnitTest.pdb
 D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\SimpleAccount.Data.dll
 D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\SimpleAccount.Data.pdb
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\Moq.dll
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\Moq.xml
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\Faker.NET4.dll
+D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Web.UnitTest\bin\Debug\de-DE\Faker.NET4.resources.dll
