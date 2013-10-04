@@ -73,6 +73,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Helper\angular.mocks.js" />
+    <Content Include="JavaScriptTest\karma.config.js" />
+    <Content Include="JavaScriptTest\SimpleAccountTest.js" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

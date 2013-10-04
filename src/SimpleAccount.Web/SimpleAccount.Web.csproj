@@ -118,6 +118,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
+    <Content Include="Js\angular-sanitize.min.js" />
+    <Content Include="Js\angular.min.js" />
     <Content Include="Js\SimpleAccountController.js" />
     <Content Include="Js\App.js" />
     <Content Include="Js\SimpleAccountService.js" />
