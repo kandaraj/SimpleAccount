@@ -58,5 +58,24 @@ TestResults/
 ehthumbs.db
 Icon?
 Thumbs.db
-jstestresults*
+
+
+
+#Testacular JUnit Results
+jstestresults*.xml
+
+#Javascript Code Coverage Results
 coverage/
+
+#Coverage tools results file
+unittestcoverage.xml
+
+#JSHint Results
+src/jshintresults.xml
+
+#Ruby mine file
+.idea/
+
+
+#Node modules
+node_modules/
