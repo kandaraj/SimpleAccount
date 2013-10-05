@@ -1,5 +1,5 @@
-D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Data\bin\Debug\SimpleAccount.Data.dll
-D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Data\bin\Debug\SimpleAccount.Data.pdb
-D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Data\obj\Debug\SimpleAccount.Data.csprojResolveAssemblyReference.cache
-D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Data\obj\Debug\SimpleAccount.Data.dll
-D:\GitDevelopment\SimpleAccount\src\SimpleAccount.Data\obj\Debug\SimpleAccount.Data.pdb
+d:\GitDevelopment\SimpleAccount\src\SimpleAccount.Data\bin\Debug\SimpleAccount.Data.dll
+d:\GitDevelopment\SimpleAccount\src\SimpleAccount.Data\bin\Debug\SimpleAccount.Data.pdb
+d:\GitDevelopment\SimpleAccount\src\SimpleAccount.Data\obj\Debug\SimpleAccount.Data.csprojResolveAssemblyReference.cache
+d:\GitDevelopment\SimpleAccount\src\SimpleAccount.Data\obj\Debug\SimpleAccount.Data.dll
+d:\GitDevelopment\SimpleAccount\src\SimpleAccount.Data\obj\Debug\SimpleAccount.Data.pdb
