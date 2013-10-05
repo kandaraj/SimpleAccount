@@ -7,24 +7,25 @@ var simpleAccountController = simpleAccountModule.controller("simpleAccountContr
     $scope.strength = "";
     $scope.passwordNotMatched = false;
  
-    $scope.CreateAccount = function() {
-        var result = simpleAccountService.createAccount($scope.model.email, $scope.model.password);
-        result.then(function (errorMessage) {
+    $scope.CreateAccount = function () { 
+        var result = simpleAccountService.createAccount($scope.model.email, $scope.model.password);  
+        result.then(function (message) { 
             $scope.model.errorMessage = "";
-            $scope.model.successMessage = "";
-            console.log(errorMessage.data);
-            if (errorMessage.data.HasError == false) {
+            $scope.model.successMessage = ""; 
+            if (message.data.HasError == false) {
                 $scope.model.successMessage = "Successfully created your account";
             }
             else {
-                angular.forEach(errorMessage.data.Errors, function (error) {
-                    console.log(error);
-                    $scope.model.errorMessage += error.Value[0];
+                angular.forEach(message.data.Errors, function (e) {
+                    //console.log(error);
+                    $scope.model.errorMessage += e.Value[0];
                 });                
             }
         }, function error(status) {
-            console.log(status);
+            //console.log(status);
         });
+
+        return true;
     };
 
     $scope.IsFormValid = function () {
