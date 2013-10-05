@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="PhantomJS 1.9.1 (Windows 7)" package="undefined" timestamp="2013-10-05T00:13:44" id="0" hostname="sivavm" tests="6" errors="0" failures="0" time="0.028">
+  <testsuite name="PhantomJS 1.9.1 (Windows 7)" package="undefined" timestamp="2013-10-05T00:24:17" id="0" hostname="sivavm" tests="6" errors="0" failures="0" time="0.029">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.1 Safari/534.34"/>
     </properties>
     <testcase name="should have model from service and be empty" time="0.017" classname="PhantomJS 1.9.1 (Windows 7).Simple account JavaScript Tests -&gt; Simple Account Controller Tests "/>
-    <testcase name="should watch password matching" time="0.002" classname="PhantomJS 1.9.1 (Windows 7).Simple account JavaScript Tests -&gt; Simple Account Controller Tests "/>
-    <testcase name="should create account and returns error message with password not long enough" time="0.002" classname="PhantomJS 1.9.1 (Windows 7).Simple account JavaScript Tests -&gt; Simple Account Controller Tests "/>
-    <testcase name="should create account with out any error" time="0.001" classname="PhantomJS 1.9.1 (Windows 7).Simple account JavaScript Tests -&gt; Simple Account Controller Tests "/>
-    <testcase name="should accept valid model to create account" time="0.005" classname="PhantomJS 1.9.1 (Windows 7).Simple account JavaScript Tests -&gt; Simple account service tests"/>
-    <testcase name="should not accept invalid model to create account" time="0.001" classname="PhantomJS 1.9.1 (Windows 7).Simple account JavaScript Tests -&gt; Simple account service tests"/>
+    <testcase name="should watch password matching" time="0.003" classname="PhantomJS 1.9.1 (Windows 7).Simple account JavaScript Tests -&gt; Simple Account Controller Tests "/>
+    <testcase name="should create account and returns error message with password not long enough" time="0.001" classname="PhantomJS 1.9.1 (Windows 7).Simple account JavaScript Tests -&gt; Simple Account Controller Tests "/>
+    <testcase name="should create account with out any error" time="0.002" classname="PhantomJS 1.9.1 (Windows 7).Simple account JavaScript Tests -&gt; Simple Account Controller Tests "/>
+    <testcase name="should accept valid model to create account" time="0.004" classname="PhantomJS 1.9.1 (Windows 7).Simple account JavaScript Tests -&gt; Simple account service tests"/>
+    <testcase name="should not accept invalid model to create account" time="0.002" classname="PhantomJS 1.9.1 (Windows 7).Simple account JavaScript Tests -&gt; Simple account service tests"/>
     <system-out><![CDATA[
 ]]></system-out>
     <system-err/>

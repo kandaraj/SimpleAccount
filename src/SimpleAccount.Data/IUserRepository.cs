@@ -4,6 +4,6 @@
     {
         bool IsUserExists(string email);
         IUser GetUsers();
-
+        bool AddUser(string email, string password);
     }
 }

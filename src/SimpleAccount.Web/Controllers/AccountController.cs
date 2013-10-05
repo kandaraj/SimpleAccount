@@ -25,8 +25,10 @@ namespace SimpleAccount.Web.Controllers
             if (ModelState.IsValid)
             {
                 var email = user.Email.ToLower();
-                if(!_repository.IsUserExists(email)) 
+
+                if (!_repository.IsUserExists(email) && _repository.AddUser(email, user.Password))                   
                     return new Message();
+    
                 ModelState.AddModelError(string.Empty, "Email already exists");
             }
 

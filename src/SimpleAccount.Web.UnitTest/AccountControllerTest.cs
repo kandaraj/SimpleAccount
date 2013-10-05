@@ -25,6 +25,7 @@ namespace SimpleAccount.Web.UnitTest
             var email = Internet.Email();
             var moqUserRepo = new Mock<IUserRepository>();
             moqUserRepo.Setup(_ => _.IsUserExists(email)).Returns(false);
+            moqUserRepo.Setup(_ => _.AddUser(email, It.IsAny<string>())).Returns(true);
 
             var accountController = new AccountController(moqUserRepo.Object);
             var message = accountController.Post(new User{ Email = email,Password = Lorem.GetFirstWord()});
