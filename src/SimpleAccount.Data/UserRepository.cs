@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 
 namespace SimpleAccount.Data
 {
@@ -7,21 +6,28 @@ namespace SimpleAccount.Data
     {
         private static UserData _instance ;
 
+        /// <summary>
+        /// Returns single instance of userdata 
+        /// </summary>
         private static UserData Instance
         {
             get { return _instance ?? (_instance = new UserData()); }
         } 
 
+        
         public bool IsUserExists(string email)
         {
             email = email.ToLower();
             return Instance.Emails.Any(_ => _.Equals(email));
         }
 
+
+        
         public IUser GetUsers()
         {
             return new UserData();
         }
+
 
         public bool AddUser(string email, string password)
         {
@@ -32,15 +38,5 @@ namespace SimpleAccount.Data
             }
             return false;
         }
-    }
-
-    internal class UserData : IUser
-    {
-        public UserData()
-        {
-            Emails = new List<string> {"test@gmail.com", "simple@gmail.com"};
-        }
-         
-        public List<string> Emails { get; set; }
     }
 }

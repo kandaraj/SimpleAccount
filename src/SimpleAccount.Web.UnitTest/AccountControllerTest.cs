@@ -10,6 +10,9 @@ namespace SimpleAccount.Web.UnitTest
     [TestClass]
     public class AccountControllerTest
     {
+        /// <summary>
+        /// Test to make sure the user is not added when the model has error
+        /// </summary>
         [TestMethod]
         public void invalid_user_model_not_added()
         {
@@ -19,6 +22,9 @@ namespace SimpleAccount.Web.UnitTest
             Assert.IsTrue(message.HasError);
         }
 
+        /// <summary>
+        /// Test to make sure the user is added when model state is clear
+        /// </summary>
         [TestMethod]
         public void valid_user_model_added()
         {
@@ -33,7 +39,9 @@ namespace SimpleAccount.Web.UnitTest
             Assert.IsFalse(message.HasError);
         }
 
-         
+         /// <summary>
+         /// Test to make sure that user is added when passing case sensitive email data
+         /// </summary>
         [TestMethod]
         public void user_already_exists_in_database_case_sensitive()
         {

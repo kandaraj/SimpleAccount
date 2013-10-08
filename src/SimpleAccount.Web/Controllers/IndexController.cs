@@ -8,9 +8,10 @@ namespace SimpleAccount.Web.Controllers
 {
     public class IndexController : Controller
     {
-        //
-        // GET: /Index/
-
+        /// <summary>
+        /// A simple Home page
+        /// </summary>
+        /// <returns>Home page view</returns>
         public ActionResult Index()
         {
             return View();
